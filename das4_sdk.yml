@@ -1,9 +1,9 @@
 header:
     version: 10
     includes:
-        - kas/config.yml
-        - kas/env.yml
-        - kas/sources.yml
+        - config.yml
+        - env.yml
+        - sources.yml
 
 build_system: oe
 distro: DAS-poky-tiny
