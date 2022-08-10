@@ -1,0 +1,71 @@
+header:
+    version: 2
+repos:
+    poky:
+        url: "https://git.yoctoproject.org/git/poky.git"
+        refspec: "945b4ef084cb254643b425748d5e38c4f5908a9a"
+        path: "sources/poky"
+        layers:
+            meta:
+            meta-poky:
+            meta-selftest:
+            meta-skeleton:
+
+    meta-freescale:
+        url: "https://github.com/Freescale/meta-freescale.git"
+        refspec: "f2421b9fa04e9cad0109bfbd095ea0684c5e2281"
+        path: "sources/meta-freescale"
+
+    meta-freescale-3rdparty:
+        url: "https://github.com/Freescale/meta-freescale-3rdparty.git"
+        refspec: "a7b96dc91bb2818d8ed8210654db10d08d4d7890"
+        path: "sources/meta-freescale-3rdparty"
+
+    meta-freescale-distro:
+        url: "https://github.com/Freescale/meta-freescale-distro.git"
+        refspec: "5d882cdf079b3bde0bd9869ce3ca3db411acbf3b"
+        path: "sources/meta-freescale-distro"
+
+    meta-qt5:
+        url: "https://code.qt.io/yocto/meta-qt5.git"
+        refspec: "5ef3a0ffd3324937252790266e2b2e64d33ef34f"
+        path: "sources/meta-qt5"
+
+    meta-swupdate:
+        url: "https://github.com/sbabic/meta-swupdate.git"
+        refspec: "dunfell"
+        path: "sources/meta-swupdate"
+
+    meta-das:
+        url: "git@github.com:dadssrepo/meta-das.git"
+        refspec: "dunfell"
+        path: "sources/meta-das"
+
+    meta-openembedded:
+        url: "https://github.com/openembedded/meta-openembedded.git"
+        refspec: "c1a50683225b0bf10f8d7a18280acefa7469ecc2"
+        path: "sources/meta-openembedded"
+        layers:
+            meta-oe:
+            meta-filesystems:
+            meta-gnome:
+            meta-initramfs:
+            meta-networking:
+            meta-multimedia:
+            meta-python:
+            meta-webserver:
+    meta-boundary:
+        url: "https://github.com/boundarydevices/meta-boundary.git"
+        refspec: "dcea3965a69de723d6365ff7d9ced03357344549"
+        path: "sources/meta-boundary"
+    meta-clang:
+        url: "https://github.com/kraj/meta-clang.git"
+        refspec: "e63d6f9abba5348e2183089d6ef5ea384d7ae8d8"
+        path: "sources/meta-clang"
+    bitbake:
+        url: "https://github.com/openembedded/bitbake.git"
+        refspec: "1.46"
+        path: "sources/openembedded-core/bitbake"
+        layers:
+            bitbake: excluded
+

@@ -1,0 +1,12 @@
+header:
+    version: 10
+    includes:
+        - kas/config.yml
+        - kas/env.yml
+        - kas/sources.yml
+
+build_system: oe
+distro: DAS-poky-tiny
+machine: das4
+target: [das-image-sdk] 
+
